@@ -85,7 +85,13 @@ function renderChart() {
 fetch(geoJsonUrl).then(res => res.json()).then(chinaJson => {
     echarts.registerMap('Chine', chinaJson);
     chart.setOption({
-        geo: { map: 'Chine', roam: true, zoom: 1.2, itemStyle: { areaColor: '#fff', borderColor: '#ccc' } },
+        geo: { 
+            map: 'Chine', 
+            roam: 'move', // On autorise le déplacement mais on bloque le zoom libre tactile
+            scaleLimit: { min: 1, max: 5 }, // Limite pour éviter de perdre la carte
+            zoom: 1.2, 
+            itemStyle: { areaColor: '#fff', borderColor: '#ccc' } 
+        },
         series: [{
             name: 'Villes',
             type: 'scatter',
@@ -137,3 +143,11 @@ document.getElementById('speak-btn').onclick = () => {
     u.lang = 'zh-CN'; u.rate = 0.8; window.speechSynthesis.speak(u);
 };
 window.onresize = () => chart.resize();
+
+// Dans js/app.js, ajoute ceci :
+chart.on('georoam', (params) => {
+    // Si l'utilisateur commence à bouger la carte, on ferme le panel pour libérer la vue
+    if (window.innerWidth < 768) {
+        document.getElementById('details-panel').classList.remove('open');
+    }
+});
