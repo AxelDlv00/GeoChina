@@ -2,7 +2,7 @@ import { citiesData } from '../data/cities.js';
 import { provincesData } from '../data/provinces.js';
 
 const chart = echarts.init(document.getElementById('main'));
-const geoJsonUrl = 'https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json';
+const geoJsonUrl = './data/china.json';
 
 const activeState = { cities: new Set(), provinces: new Set(), lastClicked: null };
 

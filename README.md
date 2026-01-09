@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](./LICENSE)
 [![GitHub Repo](https://img.shields.io/badge/Repo-GeoChina-brightgreen.svg)](https://github.com/AxelDlv00/GeoChina)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-orange.svg)](https://axeldlv00.github.io/GeoChina/)
 
 Une application interactive pour explorer la géographie, la culture et la gastronomie de la Chine. Ce projet permet de visualiser les provinces et les grandes villes chinoises grâce à une interface cartographique dynamique.
 

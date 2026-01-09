@@ -1,0 +1,17 @@
+*.log
+__pycache__/
+data/
+*.png
+*.jpg
+*.pdf
+*.aux
+*.bbl
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.DS_Store
+*.git*
+*.txt
