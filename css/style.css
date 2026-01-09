@@ -1,0 +1,49 @@
+:root { --primary: #e74c3c; --secondary: #3498db; --bg: #f8f9fa; }
+body { margin: 0; padding: 0; overflow: hidden; font-family: 'Segoe UI', sans-serif; background: var(--bg); }
+#main { width: 100vw; height: 100vh; }
+
+#ui { 
+    position: absolute; top: 20px; left: 50%; transform: translateX(-50%); 
+    background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+    padding: 20px 30px; border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center; z-index: 100; border: 1px solid #fff;
+    min-width: 280px;
+}
+
+#details-panel {
+    position: absolute; right: -400px; top: 0; width: 350px; height: 100vh;
+    background: white; box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+    z-index: 200; transition: right 0.3s ease-out;
+    padding: 30px; box-sizing: border-box; overflow-y: auto;
+}
+
+#details-panel.open { right: 0; }
+
+.close-btn { position: absolute; top: 20px; right: 20px; cursor: pointer; font-size: 24px; color: #95a5a6; }
+.type-label { font-size: 0.75rem; text-transform: uppercase; color: #95a5a6; font-weight: bold; letter-spacing: 1.5px; margin-bottom: 5px; }
+h2 { margin: 5px 0 15px 0; color: #2c3e50; font-size: 1.4rem; font-weight: 600; }
+
+.controls { display: flex; gap: 10px; justify-content: center; }
+button { border: none; cursor: pointer; border-radius: 8px; font-weight: 600; font-family: inherit; transition: all 0.2s; }
+
+#speak-btn { padding: 8px 12px; background: #2ecc71; color: white; display: none; align-items: center; justify-content: center; }
+#more-btn { padding: 8px 16px; background: #2c3e50; color: white; display: none; }
+#reset-btn { padding: 8px 16px; background: #ecf0f1; color: #7f8c8d; }
+
+.stat-item { background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px; border-left: 4px solid var(--primary); }
+.stat-label { font-weight: bold; color: #2c3e50; display: block; font-size: 0.7rem; text-transform: uppercase; }
+.info-box p { font-size: 0.95rem; color: #34495e; line-height: 1.5; }
+.icon-sound { width: 18px; height: 18px; fill: currentColor; }
+
+/* Nouveaux styles pour le panel de détails */
+.pinyin-header { font-family: 'Times New Roman', serif; font-style: italic; color: var(--secondary); margin-bottom: -5px; font-size: 1.1rem; }
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+h3 { font-size: 1.1rem; color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 5px; margin-top: 25px; }
+
+.specialty-card { background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 12px; border-right: 4px solid #2ecc71; }
+.spec-name { font-weight: bold; color: #2c3e50; font-size: 1rem; }
+.spec-trans { color: #16a085; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+.spec-desc { font-size: 0.85rem; color: #7f8c8d; line-height: 1.3; }
+
+.detail-section p { font-size: 0.9rem; margin-bottom: 10px; border-left: 2px solid #bdc3c7; padding-left: 10px; }
