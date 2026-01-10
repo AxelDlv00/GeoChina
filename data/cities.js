@@ -2,6 +2,8 @@ export const citiesData = [
     {
         "name": "上海",
         "pinyin": "Shànghǎi",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Shanghai",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Shanghai",
         "value": [121.4747, 31.2286],
         "pop": "24.8M",
         "temp": "16-28°C",
@@ -20,6 +22,8 @@ export const citiesData = [
     {
         "name": "北京",
         "pinyin": "Běijīng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Beijing",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Beijing",
         "value": [116.3975, 39.9067],
         "pop": "18.5M",
         "temp": "-4-30°C",
@@ -38,6 +42,8 @@ export const citiesData = [
     {
         "name": "广州",
         "pinyin": "Guǎngzhōu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Guangzhou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Guangzhou",
         "value": [113.2600, 23.1300],
         "pop": "26.9M",
         "temp": "20-32°C",
@@ -56,6 +62,8 @@ export const citiesData = [
     {
         "name": "深圳",
         "pinyin": "Shēnzhèn",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Shenzhen",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Shenzhen",
         "value": [114.0596, 22.5415],
         "pop": "17.6M",
         "temp": "20-30°C",
@@ -74,6 +82,8 @@ export const citiesData = [
     {
         "name": "成都",
         "pinyin": "Chéngdū",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Chengdu",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Chengdu",
         "value": [104.0633, 30.6600],
         "pop": "16.0M",
         "temp": "15-26°C",
@@ -92,6 +102,8 @@ export const citiesData = [
     {
         "name": "西安",
         "pinyin": "Xī'ān",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Xi'an",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Xi'an",
         "value": [108.9422, 34.2611],
         "pop": "12.3M",
         "temp": "10-25°C",
@@ -110,6 +122,8 @@ export const citiesData = [
     {
         "name": "重庆",
         "pinyin": "Chóngqìng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Chongqing",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Chongqing",
         "value": [106.5504, 29.5637],
         "pop": "12.1M",
         "temp": "18-30°C",
@@ -128,6 +142,8 @@ export const citiesData = [
     {
         "name": "杭州",
         "pinyin": "Hángzhōu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Hangzhou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Hangzhou",
         "value": [120.1530, 30.2670],
         "pop": "9.4M",
         "temp": "16-28°C",
@@ -146,6 +162,8 @@ export const citiesData = [
     {
         "name": "武汉",
         "pinyin": "Wǔhàn",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Wuhan",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Wuhan",
         "value": [114.3046, 30.5934],
         "pop": "10.8M",
         "temp": "15-29°C",
@@ -164,6 +182,8 @@ export const citiesData = [
     {
         "name": "天津",
         "pinyin": "Tiānjīn",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Tianjin",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Tianjin",
         "value": [117.2054, 39.1336],
         "pop": "13.8M",
         "temp": "12-26°C",
@@ -182,6 +202,8 @@ export const citiesData = [
     {
         "name": "南京",
         "pinyin": "Nánjīng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Nanjing",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Nanjing",
         "value": [118.7789, 32.0608],
         "pop": "8.4M",
         "temp": "15-27°C",
@@ -200,6 +222,8 @@ export const citiesData = [
     {
         "name": "昆明",
         "pinyin": "Kūnmíng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Kunming",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Kunming",
         "value": [102.7094, 25.0464],
         "pop": "4.4M",
         "temp": "15-22°C",
@@ -218,6 +242,8 @@ export const citiesData = [
     {
         "name": "哈尔滨",
         "pinyin": "Hā'ěrbīn",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Ha'erbin",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Ha'erbin",
         "value": [126.6409, 45.7576],
         "pop": "10.6M",
         "temp": "-20-22°C",
@@ -236,6 +262,8 @@ export const citiesData = [
     {
         "name": "拉萨",
         "pinyin": "Lāsà",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Lasa",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Lasa",
         "value": [91.1172, 29.6470],
         "pop": "0.8M",
         "temp": "1-15°C",
@@ -254,6 +282,8 @@ export const citiesData = [
     {
         "name": "乌鲁木齐",
         "pinyin": "Wūlǔmùqí",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Wulumuqi",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Wulumuqi",
         "value": [87.6125, 43.8225],
         "pop": "4.3M",
         "temp": "5-25°C",
@@ -272,6 +302,8 @@ export const citiesData = [
     {
         "name": "济南",
         "pinyin": "Jǐnán",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Jinan",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Jinan",
         "value": [117.0207, 36.6702],
         "pop": "5.6M",
         "temp": "15-28°C",
@@ -290,6 +322,8 @@ export const citiesData = [
     {
         "name": "南昌",
         "pinyin": "Nánchāng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Nanchang",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Nanchang",
         "value": [115.8580, 28.6830],
         "pop": "3.5M",
         "temp": "17-30°C",
@@ -308,6 +342,8 @@ export const citiesData = [
     {
         "name": "合肥",
         "pinyin": "Héféi",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Hefei",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Hefei",
         "value": [117.2273, 31.8206],
         "pop": "4.2M",
         "temp": "15-27°C",
@@ -326,6 +362,8 @@ export const citiesData = [
     {
         "name": "福州",
         "pinyin": "Fúzhōu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Fuzhou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Fuzhou",
         "value": [119.2964, 26.0743],
         "pop": "3.6M",
         "temp": "18-29°C",
@@ -344,6 +382,8 @@ export const citiesData = [
     {
         "name": "沈阳",
         "pinyin": "Shěnyáng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Shenyang",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Shenyang",
         "value": [123.4281, 41.8025],
         "pop": "8.2M",
         "temp": "-10-25°C",
@@ -362,6 +402,8 @@ export const citiesData = [
     {
         "name": "郑州",
         "pinyin": "Zhèngzhōu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Zhengzhou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Zhengzhou",
         "value": [113.6840, 34.7640],
         "pop": "5.6M",
         "temp": "14-28°C",
@@ -380,6 +422,8 @@ export const citiesData = [
     {
         "name": "长沙",
         "pinyin": "Chángshā",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Changsha",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Changsha",
         "value": [112.9390, 28.2280],
         "pop": "4.7M",
         "temp": "17-29°C",
@@ -398,6 +442,8 @@ export const citiesData = [
     {
         "name": "石家庄",
         "pinyin": "Shíjiāzhuāng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Shijiazhuang",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Shijiazhuang",
         "value": [114.5100, 38.0425],
         "pop": "4.0M",
         "temp": "12-27°C",
@@ -416,6 +462,8 @@ export const citiesData = [
     {
         "name": "太原",
         "pinyin": "Tàiyuán",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Taiyuan",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Taiyuan",
         "value": [112.5497, 37.8704],
         "pop": "3.8M",
         "temp": "9-24°C",
@@ -434,6 +482,8 @@ export const citiesData = [
     {
         "name": "南宁",
         "pinyin": "Nánníng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Nanning",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Nanning",
         "value": [108.3275, 22.8167],
         "pop": "3.8M",
         "temp": "21-31°C",
@@ -452,6 +502,8 @@ export const citiesData = [
     {
         "name": "贵阳",
         "pinyin": "Guìyáng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Guiyang",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Guiyang",
         "value": [106.6300, 26.6470],
         "pop": "3.2M",
         "temp": "14-23°C",
@@ -470,6 +522,8 @@ export const citiesData = [
     {
         "name": "兰州",
         "pinyin": "Lánzhōu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Lanzhou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Lanzhou",
         "value": [103.8268, 36.0606],
         "pop": "3.0M",
         "temp": "10-24°C",
@@ -488,6 +542,8 @@ export const citiesData = [
     {
         "name": "海口",
         "pinyin": "Hǎikǒu",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Haikou",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Haikou",
         "value": [110.3488, 20.0186],
         "pop": "2.8M",
         "temp": "22-30°C",
@@ -506,6 +562,8 @@ export const citiesData = [
     {
         "name": "银川",
         "pinyin": "Yínchuān",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Yinchuan",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Yinchuan",
         "value": [106.2250, 38.4850],
         "pop": "1.9M",
         "temp": "8-25°C",
@@ -524,6 +582,8 @@ export const citiesData = [
     {
         "name": "西宁",
         "pinyin": "Xīníng",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Xining",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Xining",
         "value": [101.7804, 36.6224],
         "pop": "2.4M",
         "temp": "5-18°C",
@@ -542,6 +602,8 @@ export const citiesData = [
     {
         "name": "呼和浩特",
         "pinyin": "Hūhéhàotè",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Huhehaote",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Huhehaote",
         "value": [111.7490, 40.8420],
         "pop": "3.4M",
         "temp": "5-23°C",
@@ -560,6 +622,8 @@ export const citiesData = [
     {
         "name": "桂林",
         "pinyin": "Guìlín",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Guilin",
+        "wiki_summary": "https://fr.wikipedia.org/api/rest_v1/page/summary/Guilin",
         "value": [110.2960, 25.2750],
         "pop": "4.9M",
         "temp": "18-28°C",
